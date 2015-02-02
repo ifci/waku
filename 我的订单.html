@@ -1,0 +1,691 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="author" content="JKD TEAM">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="dns-prefetch" href="//apps.bdimg.com">
+<title>我的订单</title>
+<link type="text/css" href="css/base.css" rel="stylesheet" />
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/combo.js"></script>
+<!-- <script type="text/javascript" src="js/sea.js" id="seajsnode"></script> -->
+<!--<script>
+    seajs.config({
+      alias : {
+        /*"seajs-debug" : "./spm_modules/seajs-debug/1.1.1/dist/seajs-debug",*/
+        jq : 'jquery-1.11.1.min',
+        sync : 'asyncbox',
+        slide : 'jquery.SuperSlide.2.1.1',
+        imgzoom : 'jquery.imagezoom.min',
+        vdate : 'jquery.validate.min',
+        common : 'common',
+        index : 'index'
+      },
+      preload : ['jq','sync','slide','imgzoom','vdate','common']
+    });
+    seajs.use('index');
+</script>
+<script>
+    seajs.config({
+      alias : {
+        /*"seajs-debug" : "./spm_modules/seajs-debug/1.1.1/dist/seajs-debug",*/
+        jq : 'jquery-1.11.1.min',
+        plugins : './dist/plugins.min',
+        index : 'index'
+      },
+      preload : ['jq','plugins']
+    });
+    seajs.use('index');
+</script>-->
+</head>
+
+<body>
+    <div class="wrap center">
+    	<!--header开始-->
+    	<div id="header">
+            <!-- top开始 -->
+            <div id="top" class="center">
+                <div class="top_c clearfix">
+                    <div class="top_l">
+                        <a href="#" title="登录">登录</a>
+                        <span>|</span>
+                        <a href="#" title="会员注册">会员注册</a>
+                        <span>|</span>
+                        <a href="#" title="俱乐部会员注册">俱乐部会员注册</a>
+                    </div>
+                    <div class="top_r">
+                        <ul class="lh">
+                            <li>
+                                <a href="#" title="我的订单">我的订单</a>
+                                <span>|</span>
+                            </li>
+                            <li class="top_cart">
+                                
+                                <a href="#" title="购物车"class="top_ap">
+                                    <i class="icon_cart"></i>
+                                    购物车<em>0</em>
+                                    <i class="icon_arr"></i>
+                                </a>
+                                <span>|</span>
+                                <div class="top_cbox">
+                                    <!-- <div class="top_empty">
+                                        购物车中暂时还没有商品，赶紧去选购吧
+                                    </div> -->
+                                    <ul class="dd">
+                                        
+                                        <li class="clearfix">
+                                            <div class="dd_box">
+                                                <a href="#" title=""><img src="images/pic_01.jpg" alt="" /></a>
+                                            </div>
+                                            <div class="dd_con">
+                                                <div>
+                                                    <a href="#" title="">横条休闲女袜</a>
+                                                </div>
+                                                <div>
+                                                    价格：<em>￥398</em>
+                                                    × 1
+                                                </div>
+                                                <div class="dd_del">
+                                                    <a href="#">删除</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <div class="dd_box">
+                                                <a href="#" title=""><img src="images/pic_01.jpg" alt="" /></a>
+                                            </div>
+                                            <div class="dd_con">
+                                                <div>
+                                                    <a href="#" title="">横条休闲女袜</a>
+                                                </div>
+                                                <div>
+                                                    价格：<em>￥398</em>
+                                                    × 1
+                                                </div>
+                                                <div class="dd_del">
+                                                    <a href="#">删除</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <div class="dd_box">
+                                                <a href="#" title=""><img src="images/pic_01.jpg" alt="" /></a>
+                                            </div>
+                                            <div class="dd_con">
+                                                <div>
+                                                    <a href="#" title="">横条休闲女袜</a>
+                                                </div>
+                                                <div>
+                                                    价格：<em>￥398</em>
+                                                    × 1
+                                                </div>
+                                                <div class="dd_del">
+                                                    <a href="#">删除</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="top_soa">
+                                        <div>
+                                            共2件商品&nbsp;&nbsp;共计<em>￥582</em>
+                                        </div>
+                                        <a href="#" title="去购物车结算" class="top_sbtn">去购物车结算</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" title="手机袜酷">手机袜酷</a>
+                                <span>|</span>
+                            </li>
+                            <li class="share">
+                                <a href="#" title="手机袜酷" class="share_mo">
+                                    <div class="share_box">
+                                        <i></i>
+                                        <img src="./images/qrcode.png" alt="" />
+                                        <em>手机袜酷</em>
+                                    </div>
+                                </a>
+                                <a href="#" title="微信袜酷二维码" class="share_wx">
+                                    <div class="share_box">
+                                        <i></i>
+                                        <img src="images/wxcode.png" alt="" />
+                                        <em>袜酷官方微信</em>
+                                    </div>
+                                </a>
+                                <a href="#" title="QQ空间" class="share_qz" target="_blank"></a>
+                                <a href="#" title="新浪微博" class="share_wb" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="region">
+                <div class="region_c clearfix">
+                    <!-- 菜单 s -->
+                    <div class="menu">
+                        <i></i>
+                        <span>菜单</span>
+                    </div>
+                    <div class="menu_nav menu_v">
+                            <div class="menu_nav_t">
+                                <a href="#" title="返回首页"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#" title="专业运动袜">专业运动袜</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="男袜">男袜</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="女袜">女袜</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="童袜">童袜</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="宝宝袜">宝宝袜</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="糖尿病患者专用袜">糖尿病患者专用袜</a>
+                                </li>
+                            </ul>
+                        </div>
+                    <!-- 菜单 e -->
+                    <!--导航开始-->
+                    <div class="nav">
+                        <ul>
+                            <li class="nav_on">
+                                <a href="#" title="首页">
+                                    首页
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="春袜">
+                                    春袜
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="夏袜">
+                                    夏袜
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="秋袜">
+                                    秋袜
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="冬袜">
+                                    冬袜
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="柿染袜">
+                                    柿染袜
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--导航结束-->
+                    <!-- 头部搜索 s -->
+                    <div class="search">
+                        <form action="#">
+                            <input type="text" class="search_txt" />
+                            <input type="submit" class="search_sub" value="" />
+                        </form>
+                    </div>
+                    <!-- 头部搜索 e -->
+                    <!-- logo s -->
+                    <div class="logo">
+                        <a href="#" title=""><img src="images/logo.png" alt="" /></a>
+                    </div>
+                    <!-- logo e -->
+                </div>
+            </div>
+        </div>
+        <!--header结束-->
+        <link type="text/css" href="css/member.css" rel="stylesheet" />
+        <!--content开始-->
+        <div id="content">
+            <div class="content_t">
+                <div class="content_c">
+                    <div class="myhome clearfix">
+                        <div class="mymenu">
+                            <h3>会员中心</h3>
+                            <ul>
+                                <li class="menu_on">
+                                    <a href="#" title="我的订单">我的订单</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="我的收藏">我的收藏</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="为我推荐">为我推荐</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">我的拍卖</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">我的团购</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">我的秒杀</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">我的评价</a>
+                                </li>
+                            </ul>
+                            <h3>账户管理</h3>
+                            <ul>
+                                <li >
+                                    <a href="#" title="">个人资料设置</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">账户安全设置</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">收货地址管理</a>
+                                </li>
+                            </ul>
+                            <h3>服务中心</h3>
+                            <ul>
+                                <li >
+                                    <a href="#">退货管理</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">商品咨询/回复</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">申请留言/投诉</a>
+                                </li>
+                                <li >
+                                    <a href="#" title="">留言/投诉管理</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="orderArea">
+                            <div class="orderTitle">
+                                <ul class="tag5">
+                                    <li class="on">
+                                        <a href="#">
+                                            我的订单
+                                            <b class="top">
+                                            </b>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="orderState">
+                                <select name="switchMyOrder">
+                                    <option value="#">
+                                        所有状态的订单
+                                    </option>
+                                    <option value="#">
+                                        最近一个月的订单
+                                    </option>
+                                    <option value="#">
+                                        历史订单
+                                    </option>
+                                    <option value="#">
+                                        待支付订单
+                                    </option>
+                                    <option value="#">
+                                        待发货订单
+                                    </option>
+                                    <option value="#">
+                                        待确认订单
+                                    </option>
+                                    <option value="#">
+                                        已完成订单
+                                    </option>
+                                    <option value="#">
+                                        已取消订单
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="orderlist">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="has">
+                                    <colgroup>
+                                        <col width="380" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="150" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <td>
+                                                订单商品
+                                            </td>
+                                            <td>
+                                                收货人
+                                            </td>
+                                            <td>
+                                                订单金额
+                                            </td>
+                                            <td>
+                                                下单时间
+                                            </td>
+                                            <td>
+                                                订单状态
+                                            </td>
+                                            <td>
+                                                操作
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <!-- 订单开始 -->
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="ordertab">
+                                    <colgroup>
+                                        <col width="360" />
+                                        <col width="90" />
+                                        <col width="110" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="130" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="6" class="tr-th">
+                                                <span class="tcol1">
+                                                    订单编号:
+                                                    <a href="#">
+                                                        JFW2015011916224924
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro">
+                                                <a href="#" target="_blank">
+                                                    <img src="images/pic_01.jpg" title="横条休闲女袜"
+                                                    />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                方超
+                                            </td>
+                                            <td>
+                                                <em>
+                                                    ￥
+                                                </em>
+                                                114
+                                                <br />
+                                                在线支付
+                                            </td>
+                                            <td>
+                                                <em class="co06">
+                                                    2015-01-19 16:22:49
+                                                </em>
+                                            </td>
+                                            <td>
+                                                已发货
+                                            </td>
+                                            <td class="orderother">
+                                                <span class="orderbtn">
+                                                    <a href="#" target="_blank">
+                                                        订单详情
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="ordertab">
+                                    <colgroup>
+                                        <col width="360" />
+                                        <col width="90" />
+                                        <col width="110" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="130" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="6" class="tr-th">
+                                                <span class="tcol1">
+                                                    订单编号:
+                                                    <a href="#">
+                                                        JFW2015011916224924
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro">
+                                                <a href="#" target="_blank">
+                                                    <img src="images/pic_01.jpg" title="横条休闲女袜"
+                                                    />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                方超
+                                            </td>
+                                            <td>
+                                                <em>
+                                                    ￥
+                                                </em>
+                                                114
+                                                <br />
+                                                在线支付
+                                            </td>
+                                            <td>
+                                                <em class="co06">
+                                                    2015-01-19 16:22:49
+                                                </em>
+                                            </td>
+                                            <td>
+                                                等待支付
+                                            </td>
+                                            <td class="orderother">
+                                                <span class="orderbtn">
+                                                    <a class="oBuybtn" href="#" target="_blank">
+                                                        付款
+                                                    </a>
+                                                </span>
+                                                <span class="orderbtn">
+                                                    <a href="#">
+                                                        取消订单
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="ordertab">
+                                    <colgroup>
+                                        <col width="360" />
+                                        <col width="90" />
+                                        <col width="110" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="130" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="6" class="tr-th">
+                                                <span class="tcol1">
+                                                    订单编号:
+                                                    <a href="#">
+                                                        JFW2015011916151460
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro">
+                                                <a href="#" target="_blank">
+                                                    <img src="images/pic_01.jpg" title="横条休闲女袜"
+                                                    />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                方超
+                                            </td>
+                                            <td>
+                                                <em>
+                                                    ￥
+                                                </em>
+                                                114
+                                                <br />
+                                                在线支付
+                                            </td>
+                                            <td>
+                                                <em class="co06">
+                                                    2015-01-19 16:15:14
+                                                </em>
+                                            </td>
+                                            <td>
+                                                交易成功
+                                            </td>
+                                            <td class="orderother">
+                                                <span class="orderbtn">
+                                                    <a href="#" target="_blank">
+                                                        订单详情
+                                                    </a>
+                                                </span>
+                                                <span class="orderbtn">
+                                                    <a href="#">
+                                                        立即评价
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="ordertab">
+                                    <colgroup>
+                                        <col width="360" />
+                                        <col width="90" />
+                                        <col width="110" />
+                                        <col width="100" />
+                                        <col width="100" />
+                                        <col width="130" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="6" class="tr-th">
+                                                <span class="tcol1">
+                                                    订单编号:
+                                                    <a href="#">
+                                                        JFW2015011313493448
+                                                    </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro">
+                                                <a href="#" target="_blank">
+                                                    <img src="images/pic_01.jpg" title="横条休闲女袜"
+                                                    />
+                                                </a>
+                                                <a href="#" target="_blank">
+                                                    <img src="images/pic_01.jpg" title="横条休闲女袜"
+                                                    />
+                                                </a>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <em>
+                                                    ￥
+                                                </em>
+                                                496
+                                                <br />
+                                                在线支付
+                                            </td>
+                                            <td>
+                                                <em class="co06">
+                                                    2015-01-13 13:49:34
+                                                </em>
+                                            </td>
+                                            <td>
+                                                已取消
+                                            </td>
+                                            <td class="orderother">
+                                                <a href="#">
+                                                    订单详情
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- 分页 -->
+                                <div class="paging">
+                                    <span>上一页</span>
+                                    <em>1</em>
+                                    <a href="#" title="">2</a>
+                                    <a href="#" title="">3</a>
+                                    <a href="#" title="">4</a>
+                                    <a href="#" title="">5</a>
+                                    <a href="#" title="">下一页</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--content结束-->
+        <!--footer开始-->
+        <div id="footer">
+            <div class="footer_bot clearfix" style="margin-top:20px">
+                <div class="fl">
+                    <!-- 备案信息 -->
+                    <div class="footer_copy">
+                    COPYRIGHT © 2014 版权所有 诸暨市欧莱意进出口有限公司 浙ICP备08111688号-2
+                    </div>
+                    <!-- 诚信认证 -->
+                    <div class="footer_cx">
+                        <a href="#" title=""><img src="images/copy_01.png" alt="" /></a>&nbsp;
+                        <a href="#" title=""><img src="images/copy_02.png" alt="" /></a>&nbsp;
+                        <a href="#" title=""><img src="images/copy_03.png" alt="" /></a>&nbsp;
+                        <a href="#" title=""><img src="images/copy_04.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="fr">
+                    <!-- 底部导航 -->
+                    <div class="footer_nav">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#" title="关于袜酷">关于袜酷</a>
+                            </li>
+                            <li>
+                                <a href="#" title="招贤纳士">招贤纳士</a>
+                            </li>
+                            <li>
+                                <a href="#" title="手机袜酷">手机袜酷</a>
+                            </li>
+                            <li>
+                                <a href="#" title="联系我们">联系我们</a>
+                            </li>
+                            <li>
+                                <a href="#" title="网站地图">网站地图</a>
+                            </li>
+                            <li>
+                                <a href="#" title="袜酷资讯">袜酷资讯</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 友情链接 -->
+                    <div class="footer_link">
+                        <span>友情链接：</span>
+                        <a href="http://www.kuaidi100.com/" title="国际快递查询" target="_blank">国际快递查询</a>
+                        <a href="http://www.9koudai.net/" title="" target="_blank">九口袋网络</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer结束-->
+    </div>
+</body>
+</html>

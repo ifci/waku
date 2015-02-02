@@ -1,0 +1,1 @@
+copy touch.js+index.js public.js /b 
