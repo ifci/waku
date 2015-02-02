@@ -1,9 +1,8 @@
-/* 
+/*
  * Copyright (c) 2015 JKD TEAM (9koudai.net)
- * Author fcdcyy@sina.cn
+ * @Author: fcdcyy@sina.cn
  *
- * $Date: 2015-01-14 09:14:17 $
- *
+ * @DateTime: 2015-02-02 15:14:43
  */
 
 // define(function(require,exports,module){
@@ -59,12 +58,12 @@
 				max:stock
 			}, options = $.extend(defaults, opts), keyCodes = { up : 38, down : 40 };
 			return this.each(function() {
-			
+
 				var a = $(this).find('.sub');
 				var c = $(this).find('.add');
 				var b = $(this).find('#buy_num');
 				cv(0);	//值
-				
+
 				$(this).append(a).append(b).append(c);
 				a.click(function(){
 					cv(-1);
@@ -79,7 +78,7 @@
 					e.keyCode==keyCodes.up&&cv(+1);
 					e.keyCode==keyCodes.down&&cv(-1);
 				});
-				
+
 				function cv(n){
 					b.val(b.val().replace(/[^\d]/g,''));
 					bv = parseInt( b.val() || options.min ) + n;
@@ -118,7 +117,7 @@
 				var t = $(this);
 				var s = 0;
 				var hd = $(options.hd, t);
-				var bd = $(options.bd, t);
+				var bd = $(options.bd, t).children();
 				var on = $("." + options.on, t);
 				bd.hide().eq(on.index()).show();
 				hd.click( function(){

@@ -1,11 +1,11 @@
 /*
- *
  * Copyright (c) 2015 JKD TEAM (9koudai.net)
- * Author fcdcyy@sina.cn
+ * @Author: fcdcyy@sina.cn
  *
- * $Date: 2015-01-14 09:14:17 $
- *
+ * @DateTime: 2015-02-02 15:14:29
  */
+
+
 
 $(function(){
 	$(document).coffee({
@@ -162,4 +162,12 @@ $(function(){
 	})
 
 	$(".quantity-form").Spinner();
+
+	/*个人资料切换效果*/
+	$(".grzl").tabs({
+		on: 'selected'
+	});
+	$("#file_on").click(function() {
+		$('.tab-sub li:eq(1)').trigger('click');
+	});
 })
