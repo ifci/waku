@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .login {
   background: #3b4a45;
   padding: 214px 0 74px; }
@@ -624,6 +625,151 @@ input.type_reset, input.type_submit, input.type_button, input[type=reset], input
   border: 0;
   width: 310px;
   border-radius: 3px; }
+
+/* 忘记密码 */
+.loginbtn, .regibtn, .otherAccout i, .user .ico, .pass .ico {
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat; }
+
+.forget {
+  background: #3b4a45;
+  padding: 214px 0 74px; }
+
+.forget_d {
+  border: 3px solid #435550;
+  background: #fff;
+  width: 994px;
+  margin: auto;
+  padding: 32px; }
+  .forget_d .f_box {
+    width: 500px;
+    margin-left: 50px;
+    border-right: 1px solid #eee; }
+    .forget_d .f_box h1 {
+      font-weight: 400;
+      font-size: 20px;
+      color: #faa42e; }
+  .forget_d .s_box {
+    width: 350px; }
+    .forget_d .s_box .now {
+      display: block;
+      width: 150px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      background: #4c5d57;
+      font-size: 14px;
+      margin-top: 40px;
+      margin-bottom: 20px; }
+      .forget_d .s_box .now:hover {
+        background: #618478; }
+    .forget_d .s_box .otherAccout {
+      width: 202px; }
+
+.line {
+  margin: 30px 20px;
+  position: relative; }
+
+.textbox_ui .invalid, .textbox_ui .focus_text {
+  left: 88px; }
+
+.btn {
+  margin-left: 10px;
+  border: 1px solid #dddddd;
+  padding: 0;
+  width: 106px;
+  height: 36px;
+  background: #f4f4f4;
+  margin-top: 0;
+  text-align: center;
+  line-height: 36px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block; }
+
+.reg-bu {
+  margin: 14px 0 80px 118px;
+  width: 161px;
+  height: 36px;
+  line-height: 36px;
+  background: #faa42e;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold; }
+  .reg-bu button {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #faa42e;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer; }
+
+.otherAccout {
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+  padding-left: 1px;
+  max-width: 303px;
+  _width: 304px;
+  *padding-bottom: 1px;
+  *zoom: 1; }
+  .otherAccout p {
+    padding-left: 11px;
+    line-height: 30px;
+    color: #666; }
+  .otherAccout a {
+    text-decoration: none;
+    margin: 0 1px 1px 0;
+    line-height: 35px;
+    background: #fff;
+    padding: 0 10px;
+    color: #000;
+    width: 80px;
+    float: left;
+    _line-height: normal;
+    _padding: 5px 10px; }
+  .otherAccout i {
+    filter: alpha(opacity=80);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: .25em;
+    opacity: .8;
+    height: 24px;
+    width: 24px;
+    *cursor: pointer; }
+  .otherAccout a:hover i {
+    filter: none;
+    opacity: 1; }
+  .otherAccout .iqq {
+    background-position: -59px -168px; }
+  .otherAccout .i360 {
+    background-position: 0 -175px; }
+  .otherAccout .ituan {
+    background-position: 0 -200px; }
+  .otherAccout .iweibo {
+    background-position: 0 -225px; }
+  .otherAccout .ibaidu {
+    background-position: 0 -250px; }
+  .otherAccout .imogu {
+    background-position: 0 -275px; }
+  .otherAccout .irenren {
+    background-position: 0 -300px; }
+  .otherAccout .ixunlei {
+    background-position: 0 -325px; }
+  .otherAccout .ialipay {
+    background-position: -59px -193px; }
+
+.forget .msg-text {
+  color: #999;
+  margin-top: -26px;
+  display: none; }
+
+.forget .ftx-01 {
+  color: #f00; }
 
 .sign h1 {
   font-family: Microsoft yahei; }

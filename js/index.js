@@ -1,9 +1,8 @@
 /*
- *
  * Copyright (c) 2015 JKD TEAM (9koudai.net)
- * Author fcdcyy@sina.cn
+ * @Author: fcdcyy@sina.cn
  *
- * $Date: 2015-01-14 09:14:17 $
+ * @DateTime: 2015-03-19 20:00:35
  *
  */
 
@@ -49,7 +48,7 @@ $(function(){
     		}
     	}
 	})
-	
+
 	// 添加订购模块
 	/*var vg = $('<li class="view_g"><a href="#"><div class="view_ic"></div><div class="view_gb"></div></a></li>');*/
 	var vg = $('<li>', {
@@ -170,7 +169,7 @@ $(function(){
 		},
 		errorPlacement: function(error, element) {
 			element.parent().addClass('error_ui');
-		    error.appendTo(element.siblings('.invalid'));  
+		    error.appendTo(element.siblings('.invalid'));
 		}
 	});
 
@@ -202,18 +201,21 @@ $(function(){
 		},
 		errorPlacement: function(error, element) {
 			element.parent().addClass('error_ui');
-		    error.appendTo(element.siblings('.invalid'));  
+		    error.appendTo(element.siblings('.invalid'));
 		},
-		submitHandler:function() { 
-			alert("Submitted!") 
+		submitHandler:function() {
+			alert("Submitted!")
 		}*/
 	});
 
 	$(".a_color .curr").parent().css('border','1px solid #666');
-	$('.spec').each(function(){
+	/*$('.spec').each(function(){
 		$(this).find('.wakupd_info_ty10').first().addClass('wakupd_curr');
 		$(this).find('.wakupd_info_ty10').click(function(){
 			$(this).addClass('wakupd_curr').siblings('.wakupd_info_ty10').removeClass('wakupd_curr');
 		})
+	});*/
+	$(".choose .item").on('click', function(event) {
+		$(this).addClass('selected').siblings('.item').removeClass('selected');
 	});
 })

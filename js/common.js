@@ -2,7 +2,7 @@
  * Copyright (c) 2015 JKD TEAM (9koudai.net)
  * @Author: fcdcyy@sina.cn
  *
- * @DateTime: 2015-02-02 15:14:43
+ * @DateTime: 2015-03-14 11:56:43
  */
 
 // define(function(require,exports,module){
@@ -117,7 +117,7 @@
 				var t = $(this);
 				var s = 0;
 				var hd = $(options.hd, t);
-				var bd = $(options.bd, t).children();
+				var bd = $(options.bd, t);
 				var on = $("." + options.on, t);
 				bd.hide().eq(on.index()).show();
 				hd.click( function(){

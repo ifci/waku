@@ -1,0 +1,241 @@
+/*
+ * Copyright (c) 2015 JKD TEAM (9koudai.net)
+ * @Author: fcdcyy@sina.cn
+ *
+ * @DateTime: 2015-02-04 10:01:46
+ */
+
+@charset "utf-8";
+
+$color: #acbfb9;   //主体颜色
+$bg: #22332d;      //主要背景
+$hcolor: #faa42e;
+
+
+//字体大小方法
+@mixin fz($size: 12px){
+  font-size: $size;
+}
+//单边边框方法
+@mixin bor($dt, $ct: #e8e8e8){
+  border-#{$dt}: 1px solid $ct;
+}
+//全边框方法
+@mixin border($ct: #e8e8e8){
+  border: 1px solid $ct;
+}
+//圆角方法
+@mixin radius($radius: 10px) {
+　-webkit-border-radius: $radius;
+　-moz-border-radius: $radius;
+　border-radius: $radius;
+}
+//外边距
+@mixin margin($margin: 10px){
+  margin: $margin;
+}
+//内边距
+@mixin padding($padding: 10px){
+  padding: $padding;
+}
+//文字对齐方式
+@mixin align($align: center){
+  text-align:$align;
+}
+//三角形
+@mixin tri($dire,$dc,$width){
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: $width solid transparent;
+  border-#{$dire}-color: $dc;
+}
+
+
+
+
+
+
+
+.helper{
+  @extend %c84;
+  padding: 200px 0 20px;
+}
+
+.help_l {
+  width: 21%;
+  @extend %fl;
+}
+
+.help_ty1 {
+  height: 40px;
+  line-height: 40px;
+  background: $hcolor;
+  color: #fff;
+  font-size: 14px;
+  span {
+    display: block;
+    width: 23px;
+    height: 28px;
+    background: url(../images/help_ico1.png) no-repeat;
+    vertical-align: middle;
+    margin: 10px 10px 0 38px;
+  }
+  b {
+    display: block;
+  }
+}
+
+.slidemember, .slideqa {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+
+.slidemember_c, .slideqa_c {
+  height: 34px;
+  line-height: 34px;
+  background: #f3f3f3;
+  color: #333;
+  font-size: 14px;
+  padding-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.slidemember_c .icon, .slideqa_c span.icon {
+  width: 9px;
+  height: 6px;
+  @extend %icon;
+  background-position: -63px -255px;
+  margin: 15px 30px 0 0;
+  float: right;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.slidemember_b, .slideqa_b {
+  padding: 5px 0;
+}
+
+.slidemember_b li {
+  color: #666;
+  line-height: 30px;
+  padding-left: 17px;
+}
+
+.slideqa_b li {
+  color: #666;
+  line-height: 30px;
+  padding-left: 17px;
+  padding-left: 40px;
+}
+
+.slidemember_b a, .slideqa_b a {
+  color: #666;
+}
+
+.slidemember_b a:hover, .slideqa_b a:hover, .slide_on a {
+  color: #E4393C;
+}
+
+.help_r {
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  width: 77.5%;
+  @extend %fr;
+}
+
+.help_ty3{
+  height: 37px;
+  border-bottom: 1px dashed #EEE;
+  line-height: 37px;
+}
+
+.help_ty5{
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  text-indent: 10px;
+  @include fz(16px);
+  @extend %ffyh;
+}
+
+.ask {
+  padding: 20px;
+  line-height: 24px;
+  color: #333;
+}
+
+
+
+
+
+
+%ffst{  //宋体
+  font-family: SimSun;
+}
+%ffht{  //黑体
+  font-family: SimHei;
+}
+%ffyh{  //微软雅黑
+  font-family: Microsoft yahei;
+}
+%ffar{  //Arial
+  font-family: Arial;
+}
+%icon{  //图标集
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+}
+%w100{  //图片自适应
+  width: 100%;
+}
+%nowrap{  //单行文字
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+%inline{  //行内元素
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+}
+%imgtc{    //图片的垂直居中
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
+  *display: block;
+  *font-size: 175px;/*约为高度的0.873，200*0.873 约为175*/
+  *font-family:Arial;
+  width:200px;
+  height:200px;
+  border: 1px solid #eee;
+}
+%center{    //主体居中
+  width: 1200px;
+  margin: auto;
+}
+%minw{    //最小宽度
+  min-width: 1200px;
+}
+%fl{
+  float: left;
+}
+%fr{
+  float: right;
+}
+%pr{
+  position: relative;
+}
+%pa{
+  position: absolute;
+}
+
+%c84{
+  width: 1060px;
+  margin: auto;
+}

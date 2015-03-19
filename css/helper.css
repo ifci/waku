@@ -1,0 +1,115 @@
+/*
+ * Copyright (c) 2015 JKD TEAM (9koudai.net)
+ * @Author: fcdcyy@sina.cn
+ *
+ * @DateTime: 2015-02-04 10:01:46
+ */
+.helper {
+  padding: 200px 0 20px; }
+
+.help_l {
+  width: 21%; }
+
+.help_ty1 {
+  height: 40px;
+  line-height: 40px;
+  background: #faa42e;
+  color: #fff;
+  font-size: 14px; }
+  .help_ty1 span {
+    display: block;
+    width: 23px;
+    height: 28px;
+    background: url(../images/help_ico1.png) no-repeat;
+    vertical-align: middle;
+    margin: 10px 10px 0 38px; }
+  .help_ty1 b {
+    display: block; }
+
+.slidemember, .slideqa {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  margin-top: 10px; }
+
+.slidemember_c, .slideqa_c {
+  height: 34px;
+  line-height: 34px;
+  background: #f3f3f3;
+  color: #333;
+  font-size: 14px;
+  padding-left: 20px;
+  cursor: pointer;
+  font-weight: bold; }
+
+.slidemember_c .icon, .slideqa_c span.icon {
+  width: 9px;
+  height: 6px;
+  background-position: -63px -255px;
+  margin: 15px 30px 0 0;
+  float: right;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease; }
+
+.slidemember_b, .slideqa_b {
+  padding: 5px 0; }
+
+.slidemember_b li {
+  color: #666;
+  line-height: 30px;
+  padding-left: 17px; }
+
+.slideqa_b li {
+  color: #666;
+  line-height: 30px;
+  padding-left: 17px;
+  padding-left: 40px; }
+
+.slidemember_b a, .slideqa_b a {
+  color: #666; }
+
+.slidemember_b a:hover, .slideqa_b a:hover, .slide_on a {
+  color: #E4393C; }
+
+.help_r {
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  width: 77.5%; }
+
+.help_ty3 {
+  height: 37px;
+  border-bottom: 1px dashed #EEE;
+  line-height: 37px; }
+
+.help_ty5 {
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  text-indent: 10px;
+  font-size: 16px; }
+
+.ask {
+  padding: 20px;
+  line-height: 24px;
+  color: #333; }
+
+.help_ty5 {
+  font-family: Microsoft yahei; }
+
+.slidemember_c .icon, .slideqa_c span.icon {
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat; }
+
+.help_l {
+  float: left; }
+
+.help_r {
+  float: right; }
+
+.helper {
+  width: 1060px;
+  margin: auto; }
+
+/*# sourceMappingURL=helper.css.map */

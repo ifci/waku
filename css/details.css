@@ -96,7 +96,7 @@
     width: 50px; }
 
 .tb-thumb .tb-selected {
-  border: 1px solid #8e3e00; }
+  border: 1px solid #22332d; }
 .tb-thumb li div {
   border: 1px solid #CDCDCD; }
 
@@ -222,6 +222,54 @@ div.zoomMask {
 .wakupd_info_ty13 {
   width: 120px;
   height: 32px; }
+
+/* 详情页颜色选择 */
+.choose .dt {
+  float: left;
+  margin-top: 8px;
+  padding-right: 8px; }
+.choose .dd {
+  overflow: hidden; }
+.choose .item {
+  float: left;
+  margin: 2px 8px 2px 0;
+  position: relative;
+  border: 1px solid #ddd;
+  min-width: 50px;
+  text-align: center; }
+  .choose .item a {
+    white-space: nowrap;
+    display: block;
+    padding: 2px;
+    color: #666;
+    height: 28px; }
+    .choose .item a img {
+      margin: 1px 3px 1px 1px;
+      display: inline-block;
+      float: none;
+      vertical-align: middle; }
+    .choose .item a i {
+      float: none;
+      display: inline-block;
+      font-size: 12px;
+      vertical-align: middle;
+      font-style: normal;
+      margin-right: 3px;
+      cursor: pointer; }
+  .choose .item:hover a {
+    border: 2px solid #22332d;
+    padding: 0; }
+.choose .selected b {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  background-position: 0 -281px; }
+.choose .selected a {
+  border: 2px solid #22332d;
+  padding: 0; }
 
 /* 详情页商品咨询 */
 .u-consulting-prompt {
@@ -496,9 +544,9 @@ div.zoomMask {
   margin-top: 10px;
   padding-bottom: 30px; }
 
-.pdetail_s {
-  display: none; }
-
+/* .pdetail_s {
+  display: none;
+} */
 .pdetail_l {
   width: 850px;
   border-top: none;
@@ -1090,7 +1138,7 @@ div.zoomMask {
 .wakupd_info_ty14, .wakupd_info_ty15 {
   font-family: Microsoft yahei; }
 
-.hot_button, .wakupd_info_c .wakupd_curr, .u-consulting-btn span, .wakupd_info_ty14, .wakupd_info_ty15, .u-comments-title i {
+.hot_button, .wakupd_info_c .wakupd_curr, .choose .selected b, .u-consulting-btn span, .wakupd_info_ty14, .wakupd_info_ty15, .u-comments-title i {
   background-image: url(../images/icon.png);
   background-repeat: no-repeat; }
 

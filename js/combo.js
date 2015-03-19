@@ -136,11 +136,10 @@ $(function(){
 	$("#invoice .update").bind('click',
 	function(event) {
 	    $(this).hide();
-	    $("#invoice_need_save,#time_closed").hide();
+	    $("#invoice_need_save,#invoice_need_chosen").hide();
 	    $('#invoice_need').show();
 	});
-	$("#invoice_need_edit .save").bind('click',
-	function(event) {
+	$("#invoice_need_edit .save").bind('click', function(event) {
 	    var invoice_title = $('#invoice_need_edit_cop_title').val() ? $('#invoice_need_edit_cop_title').val() : $("input[name='invoice[title]']:checked").val();
 	    var invoice_con = $('input:radio[name=invoice_need_edit_content]:checked').val();
 	    $("#invoice_need_save_title").text(invoice_title);

@@ -176,7 +176,7 @@ $hcolor: #faa42e;
 
 .tb-thumb {
   .tb-selected {
-    border: 1px solid #8e3e00;
+    border: 1px solid $bg;
   }
   li div {
     border: 1px solid #CDCDCD;
@@ -330,6 +330,69 @@ div {
   height: 32px;
   @extend %inline;
 
+}
+
+
+/* 详情页颜色选择 */
+.choose{
+  .dt{
+    float: left;
+    margin-top: 8px;
+    padding-right: 8px;
+  }
+  .dd{
+    overflow: hidden;
+  }
+  .item {
+    float: left;
+    margin: 2px 8px 2px 0;
+    position: relative;
+    border: 1px solid #ddd;
+    min-width: 50px;
+    text-align: center;
+    a {
+      white-space: nowrap;
+      display: block;
+      padding: 2px;
+      color: #666;
+      height: 28px;
+      img {
+        margin: 1px 3px 1px 1px;
+        display: inline-block;
+        float: none;
+        vertical-align: middle;
+      }
+      i {
+        float: none;
+        display: inline-block;
+        font-size: 12px;
+        vertical-align: middle;
+        font-style: normal;
+        margin-right: 3px;
+        cursor: pointer;
+      }
+    }
+    &:hover a{
+      border: 2px solid $bg;
+      padding: 0;
+    }
+  }
+  .selected {
+    b{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    background-position: 0 -281px;
+    @extend %icon;
+    }
+    a{
+      border: 2px solid $bg;
+      padding: 0;
+    }
+  }
 }
 
 
@@ -671,9 +734,9 @@ div {
   padding-bottom: 30px;
 }
 
-.pdetail_s {
+/* .pdetail_s {
   display: none;
-}
+} */
 
 .pdetail_l {
   width: 850px;
@@ -1354,7 +1417,7 @@ div {
 .u-consulting-table{
   width:100%;
   margin-top:10px;
-  td{ 
+  td{
     padding:5px;
   }
 }

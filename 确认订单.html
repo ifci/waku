@@ -66,7 +66,7 @@
                                 <span>|</span>
                             </li>
                             <li class="top_cart">
-                                
+
                                 <a href="#" title="购物车"class="top_ap">
                                     <i class="icon_cart"></i>
                                     购物车<em>0</em>
@@ -78,7 +78,7 @@
                                         购物车中暂时还没有商品，赶紧去选购吧
                                     </div> -->
                                     <ul class="dd">
-                                        
+
                                         <li class="clearfix">
                                             <div class="dd_box">
                                                 <a href="#" title=""><img src="images/pic_01.jpg" alt="" /></a>
@@ -268,34 +268,30 @@
                                 </span>
                             </h3>
                             <div id="path_list">
-                                <dl>
+
+                                <dl class="default">
                                     <dt>
                                         <span class="tit" id="username33">
                                             方超
                                         </span>
-                                        <span class="tel" id="phone33">
+                                        <span class="tel">
                                             15111111111
-                                        </span>
-                                        <span class="def">
-                                            设为默认
-                                        </span>
-                                        <span id="postcode33" style="display:none;">
                                         </span>
                                     </dt>
                                     <dd>
-                                        <span id="shen_cityname33">
+                                        <span>
                                             上海市
                                         </span>
                                         -
-                                        <span id="shi_cityname33">
+                                        <span>
                                             上海市
                                         </span>
                                         -
-                                        <span id="xian_cityname33">
+                                        <span>
                                             嘉定区
                                         </span>
                                         <br>
-                                        <span id="address33">
+                                        <span>
                                             环城路2222号
                                         </span>
                                     </dd>
@@ -307,9 +303,45 @@
                                             删除
                                         </b>
                                     </dd>
-                                    <span style="display: none;" name="ship_info">
-                                    </span>
                                 </dl>
+
+                                <dl>
+                                    <dt>
+                                        <span class="tit">
+                                            方超
+                                        </span>
+                                        <span class="tel">
+                                            15111111111
+                                        </span>
+                                        <span class="def">
+                                            设为默认
+                                        </span>
+                                    </dt>
+                                    <dd>
+                                        <span>
+                                            上海市
+                                        </span>
+                                        -
+                                        <span>
+                                            上海市
+                                        </span>
+                                        -
+                                        <span>
+                                            嘉定区
+                                        </span>
+                                        <br>
+                                        <span>
+                                            环城路2222号
+                                        </span>
+                                    </dd>
+                                    <dd class="ubtn">
+                                        <b class="update">
+                                            修改
+                                        </b>
+                                    </dd>
+                                </dl>
+
+
                                 <dl class="add">
                                     <dd>
                                         <b>
@@ -335,7 +367,7 @@
                                     已选择：不限时间
                                 </p>
                             </div>
-                            <div id="time_opened" style="display: none;">
+                            <div id="time_opened" class="clearfix" style="display: none;margin-top:10px;">
                                 <dl value="1" class="on">
                                     <dt>
                                         不限时间
@@ -502,7 +534,7 @@
                                     </span>
                                 </strong>
                             </div>
-                            <div id="time_closed" style="display: block;">
+                            <div id="invoice_need_chosen" style="display: block;">
                                 <p>
                                     已选择：不开具发票
                                 </p>
@@ -534,25 +566,13 @@
                                         <p>
                                             <span>
                                                 <label>
-                                                    <input name="invoice[content]" type="radio" checked="checked" value="明细">
+                                                    <input name="invoice_need_edit_content" type="radio" checked="checked" value="明细">
                                                     明细
                                                 </label>
                                             </span>
                                             <span>
                                                 <label>
-                                                    <input name="invoice[content]" type="radio" value="保健品">
-                                                    保健品
-                                                </label>
-                                            </span>
-                                            <span>
-                                                <label>
-                                                    <input name="invoice[content]" type="radio" value="食品">
-                                                    食品
-                                                </label>
-                                            </span>
-                                            <span>
-                                                <label>
-                                                    <input name="invoice[content]" type="radio" value="礼品">
+                                                    <input name="invoice_need_edit_content" type="radio" value="礼品">
                                                     礼品
                                                 </label>
                                             </span>
